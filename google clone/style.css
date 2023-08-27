@@ -1,0 +1,96 @@
+body{
+  background-color: cornflowerblue;
+}
+.nav{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+ul{
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+    padding-right: 15px;
+}
+ul li{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    color: aliceblue;
+    margin: 10px;
+    margin-right: 10px;
+}
+ul li:hover{
+    color: tomato;
+    cursor: pointer;
+
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.menu{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+}
+.temp{
+    background: lightblue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.menu i{
+    padding-right: 20px;
+}
+.main{
+    height: 500px;
+}
+.main p{
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 900;
+    padding-top: 20px;
+    color:aliceblue;
+}
+.srch{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 50px;
+    height: 50px;
+}
+.srch input{
+    height: 40px;
+    border-radius: 25px;
+    width: 500px;
+    border: none;
+}
+.icons{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.box1{
+    margin-right: 35px;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    background:url(./pexels-pixabay-531880.jpg);
+    border-radius: 50%
+}
+.box{
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.box p{
+    font-size: 20px;
+    padding-right: 20px;
+}
+    
