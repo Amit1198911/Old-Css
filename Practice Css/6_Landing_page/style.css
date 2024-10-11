@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../6_Landing_page/bg.jpg'); /* Ensure the correct path */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8; /* Reduce the opacity */
+    z-index: -1; /* Keep the image behind all content */
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+#links {
+    width: 500px;
+    height: 60px;
+    padding-left: 20px;
+    background-color: hsla(0, 7%, 45%, 0.473); /* Set background with opacity */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between; /* Space out the links */
+    align-items: center;
+}
+span {
+    color: aliceblue;
+    padding-left: 5px;
+    padding-right: 10px;
+    font-weight: 100;
+    font-size: 25px;
+    font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+button {
+    padding: 8px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 18px;
+}
+a:hover{
+    transform: translate(0px,-4px);
+    transition: 0.5s ease-in;
+    color: rgb(255, 94, 0);
+}
+
+/* Hero Section */
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px); /* Full height minus header */
+}
+#desc {
+    margin-top: 50px;
+    font-weight: 100;
+    font-size: 80px;
+    color: aliceblue;
+    z-index: 1;
+    width: 500px;
+    text-align: center;
+    display: inline-block;
+}
+
+#desc2,#desc3{
+    font-size: 25px;
+    font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+}
+#desc2{
+    padding-top: 70px;
+    z-index: 2;
+    display: block;
+}
+#desc3{
+    /* margin-top: 20px; */
+    z-index: 2;
+    display: block;
+}
